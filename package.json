@@ -1,0 +1,29 @@
+{
+  "name": "string-template",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "e53e04ac",
+  "homepage": "https://github.com/e53e04ac/string-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e53e04ac/string-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/e53e04ac/string-template/issues"
+  },
+  "type": "module",
+  "types": "./index.d.ts",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "event-emitter": "github:e53e04ac/event-emitter",
+    "hold": "github:e53e04ac/hold"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
