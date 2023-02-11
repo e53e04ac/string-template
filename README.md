@@ -5,8 +5,8 @@ npm install e53e04ac/string-template
 ~~~~~
 
 ~~~~~ mjs
-import { type StringTemplate } from 'e53e04ac/string-template';
-import { const StringTemplate } from 'e53e04ac/string-template';
+import { StringTemplate } from 'e53e04ac/string-template';
+import { StringTemplate } from 'e53e04ac/string-template';
 ~~~~~
 
 ~~~~~ mermaid
@@ -22,8 +22,8 @@ graph RL;
   A ----> B_0;
   A ----> B_1;
   A ----> B_2;
-  click B_0 "https://github.com/e53e04ac/event-emitter/tree/16e99ba8e6c11d40465eacae307459cc95a57625";
-  click B_1 "https://github.com/e53e04ac/hold/tree/8fc3f6696d1c7ed6d184d90c5e33298cc9228991";
+  click B_0 "https://github.com/e53e04ac/event-emitter/tree/684f3b21090807e48917ae6591611f4eb2b1e661";
+  click B_1 "https://github.com/e53e04ac/hold/tree/67e5b60f9bb3221f8b200107c13e89a604a93631";
   click B_2 "https://www.npmjs.org/package/@types/node/v/18.13.0";
 ~~~~~
 
@@ -49,8 +49,8 @@ graph RL;
 ~~~~~ mermaid
 graph RL;
   subgraph "e53e04ac/string-template";
-    E_0(["type StringTemplate"]);
-    E_1(["const StringTemplate"]);
+    E_0(["StringTemplate"]);
+    E_1(["StringTemplate"]);
   end;
   M(["index.d.ts"])
   subgraph "event-emitter";
