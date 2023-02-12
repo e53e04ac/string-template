@@ -21,7 +21,7 @@ graph RL;
   A ----> B_0;
   A ----> B_1;
   A ----> B_2;
-  click B_0 "https://github.com/e53e04ac/event-emitter/tree/b3a7678f84ede6ae2111a8802360b326a57d3ef2";
+  click B_0 "https://github.com/e53e04ac/event-emitter/tree/93b9f205a7be92bb920d2d4f13efa78be7b4ba5d";
   click B_1 "https://github.com/e53e04ac/hold/tree/b0b5ef032800af76c6e7ae27472dbf25a04a947d";
   click B_2 "https://www.npmjs.org/package/@types/node/v/18.13.0";
 ~~~~~
@@ -48,8 +48,9 @@ graph RL;
 ~~~~~ mermaid
 graph RL;
   subgraph "e53e04ac/string-template";
-    E_0(["type StringTemplate"]);
-    E_1(["const StringTemplate"]);
+    E_0(["namespace StringTemplate"]);
+    E_1(["type StringTemplate"]);
+    E_2(["const StringTemplate"]);
   end;
   M(["index.d.ts"])
   subgraph "event-emitter";
@@ -64,4 +65,5 @@ graph RL;
   M ----> I_1_1;
   E_0 ----> M;
   E_1 ----> M;
+  E_2 ----> M;
 ~~~~~
