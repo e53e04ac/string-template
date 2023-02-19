@@ -10,8 +10,6 @@ import { ValueOrGet } from 'hold';
 
 export declare namespace StringTemplate {
 
-    type EventSpecs = Record<never, never>;
-
     type Options = {
         readonly template: ValueOrGet<string>;
         readonly variables: ValueOrGet<{
@@ -19,6 +17,8 @@ export declare namespace StringTemplate {
             readonly value: string;
         }[]>;
     };
+
+    type EventSpecs = Record<never, never>;
 
     type _Self = {
         readonly options: Get<Options>;
