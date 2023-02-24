@@ -5,7 +5,7 @@ npm install e53e04ac/string-template
 ~~~~~
 
 ~~~~~ mjs
-import { StringTemplate } from 'e53e04ac/string-template';
+import { StringTemplate } from 'string-template';
 ~~~~~
 
 ~~~~~ mermaid
@@ -19,8 +19,8 @@ graph RL;
     B_2(["@types/node"]);
   end;
   subgraph "github";
-    C_0(["e53e04ac/event-emitter\naea7d828d486572514f193752191206e0cbeeaa5"]);
-    C_1(["e53e04ac/hold\n593585d63bb24dc044f13a88375b53f9fa565229"]);
+    C_0(["e53e04ac/event-emitter\n1c42c278687d626fd9dbc9da241e899e482bac0d"]);
+    C_1(["e53e04ac/hold\nccd6d335b2be61f30045be782b2129d08a53ac67"]);
   end;
   subgraph "npmjs";
     C_2(["@types/node\n18.14.1"]);
@@ -31,8 +31,8 @@ graph RL;
   B_0 ----> C_0;
   B_1 ----> C_1;
   B_2 ----> C_2;
-  click C_0 "https://github.com/e53e04ac/event-emitter/tree/aea7d828d486572514f193752191206e0cbeeaa5";
-  click C_1 "https://github.com/e53e04ac/hold/tree/593585d63bb24dc044f13a88375b53f9fa565229";
+  click C_0 "https://github.com/e53e04ac/event-emitter/tree/1c42c278687d626fd9dbc9da241e899e482bac0d";
+  click C_1 "https://github.com/e53e04ac/hold/tree/ccd6d335b2be61f30045be782b2129d08a53ac67";
   click C_2 "https://www.npmjs.com/package/@types/node/v/18.14.1";
 ~~~~~
 
