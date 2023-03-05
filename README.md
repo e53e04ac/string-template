@@ -19,8 +19,8 @@ graph RL;
     B_2(["@types/node"]);
   end;
   subgraph "github";
-    C_0(["e53e04ac/event-emitter\n63f34d0c90cbecf2b424b38c0615e67fd7ba6594"]);
-    C_1(["e53e04ac/hold\n050a2db413598fe87670b5b6bd34b804776a3657"]);
+    C_0(["e53e04ac/event-emitter\ndb90659b1c25a4e17e8a8dbf8920a630fd30321d"]);
+    C_1(["e53e04ac/hold\n472cfb85bada328cba9c6faddcf45b1241761027"]);
   end;
   subgraph "npmjs";
     C_2(["@types/node\n18.14.6"]);
@@ -31,8 +31,8 @@ graph RL;
   B_0 ----> C_0;
   B_1 ----> C_1;
   B_2 ----> C_2;
-  click C_0 "https://github.com/e53e04ac/event-emitter/tree/63f34d0c90cbecf2b424b38c0615e67fd7ba6594";
-  click C_1 "https://github.com/e53e04ac/hold/tree/050a2db413598fe87670b5b6bd34b804776a3657";
+  click C_0 "https://github.com/e53e04ac/event-emitter/tree/db90659b1c25a4e17e8a8dbf8920a630fd30321d";
+  click C_1 "https://github.com/e53e04ac/hold/tree/472cfb85bada328cba9c6faddcf45b1241761027";
   click C_2 "https://www.npmjs.com/package/@types/node/v/18.14.6";
 ~~~~~
 
